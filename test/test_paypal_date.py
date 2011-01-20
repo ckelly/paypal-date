@@ -1,9 +1,9 @@
 import unittest
 import datetime
 
-from paypal_next_date import get_next_paypal_monthly_billing_date
+from paypal_date import get_next_paypal_monthly_billing_date
 
-class TestPayPalNextDate(unittest.TestCase):
+class TestPayPalDate(unittest.TestCase):
 
     def setUp(self):
         pass
