@@ -20,11 +20,11 @@ From the PayPal Documentation: https://www.x.com/thread/48147
  
   The subscriber is billed as follows:
  
-  Thursday, July 31 = $25.99 USD
-  Saturday, August 31 = $25.99 USD
-  Wednesday, October 1= $25.99 USD
-  Saturday, November 1= $25.99 USD
-  and so on...
+    Thursday, July 31 = $25.99 USD
+    Saturday, August 31 = $25.99 USD
+    Wednesday, October 1= $25.99 USD
+    Saturday, November 1= $25.99 USD
+    and so on...
  
   Notice that no recurring monthly payment was collected in September, but recurring payments
   were collected roughly every 30 days.
@@ -32,15 +32,15 @@ From the PayPal Documentation: https://www.x.com/thread/48147
   When Monthly Recurring Payments Are Due and Collected on the 30th
   The subscription terms are:
  
-  $25.99 USD a month; the subscriber signs up on Tuesday, December 30.
+    $25.99 USD a month; the subscriber signs up on Tuesday, December 30.
  
   The subscriber is billed as follows:
  
-  Tuesday, December 30 = $25.99 USD
-  Friday, January 30 = $25.99 USD
-  Sunday, March 1= $25.99 USD
-  Wednesday, April 1= $25.99USD
-  and so on...
+    Tuesday, December 30 = $25.99 USD
+    Friday, January 30 = $25.99 USD
+    Sunday, March 1= $25.99 USD
+    Wednesday, April 1= $25.99USD
+    and so on...
  
   Notice that no recurring monthly payment was collected in February, but recurring payments
   were collected roughly every 30 days.
