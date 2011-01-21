@@ -13,7 +13,11 @@ From the PayPal Documentation: https://www.x.com/thread/48147
 
   **How Subscriptions with Monthly Billing Cycles Work**
   
-  For monthly billing cycles, recurring payments are collected on the same day of the month. If the initial recurring payment falls on the 31st, PayPal eventually adjusts the billing cycle to the 1st of the month. If the initial recurring payment falls on the 29th or 30th, PayPal adjusts the billing cycle to the 1st of the month on the following February.
+  For monthly billing cycles, recurring payments are collected on the same day
+  of the month. If the initial recurring payment falls on the 31st, PayPal
+  eventually adjusts the billing cycle to the 1st of the month. If the initial
+  recurring payment falls on the 29th or 30th, PayPal adjusts the billing
+  cycle to the 1st of the month on the following February.
  
   When Monthly Recurring Payments Are Due and Collected on the 31st
   The subscription terms are:
@@ -28,7 +32,8 @@ From the PayPal Documentation: https://www.x.com/thread/48147
     Saturday, November 1= $25.99 USD
     and so on...
  
-  Notice that no recurring monthly payment was collected in September, but recurring payments were collected roughly every 30 days.
+  Notice that no recurring monthly payment was collected in September, but
+  recurring payments were collected roughly every 30 days.
  
   When Monthly Recurring Payments Are Due and Collected on the 30th
   The subscription terms are:
@@ -43,7 +48,8 @@ From the PayPal Documentation: https://www.x.com/thread/48147
     Wednesday, April 1= $25.99USD
     and so on...
  
-  Notice that no recurring monthly payment was collected in February, but recurring payments were collected roughly every 30 days.
+  Notice that no recurring monthly payment was collected in February, but
+  recurring payments were collected roughly every 30 days.
   
 https://cms.paypal.com/cms_content/US/en_US/files/developer/PP_WebsitePaymentsStandard_IntegrationGuide.pdf (PDF)
 
