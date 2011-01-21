@@ -95,5 +95,33 @@ class TestPayPalDate(unittest.TestCase):
             start_date = get_next_paypal_monthly_billing_date(start_date)
             self.assertEqual(start_date, expected_result[i])
 
+    def test_paypal_example_1(self):
+        # leap year test case
+        start_date = datetime.datetime(2010, 7, 31)
+
+        expected_result = [
+            datetime.datetime(2010, 8, 31),
+            datetime.datetime(2010, 10, 1),
+            datetime.datetime(2010, 11, 1),
+        ]
+        
+        for i in xrange(0, 3):
+            start_date = get_next_paypal_monthly_billing_date(start_date)
+            self.assertEqual(start_date, expected_result[i])
+            
+    def test_paypal_example_2(self):
+        # example from documentation
+        start_date = datetime.datetime(2010, 12, 30)
+
+        expected_result = [
+            datetime.datetime(2011, 1, 30),
+            datetime.datetime(2011, 3, 1),
+            datetime.datetime(2011, 4, 1),
+        ]
+        
+        for i in xrange(0, 3):
+            start_date = get_next_paypal_monthly_billing_date(start_date)
+            self.assertEqual(start_date, expected_result[i])
+
 if __name__ == '__main__':
     unittest.main()
